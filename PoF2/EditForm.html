@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+
+    <table>
+        <tr> 
+            <td></td>
+        </tr>
+        <tr> 
+            <td>
+                <div>Personal-Nr.:</div>
+            </td>
+            <td>
+                <div data-bind="text: PersonalNr"></div>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Name:</div>
+            </td>
+            <td>
+                <input data-bind="value: Name, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Vorname:</div>
+            </td>
+            <td>
+                <input data-bind="value: Vorname, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Arbeitgeber:</div>
+            </td>
+            <td>
+                <input data-bind="value: Arbeitgeber, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Kreis:</div>
+            </td>
+            <td>
+                <input data-bind="value: Kreis, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Art d. Beschäftigung:</div>
+            </td>
+            <td>
+                <input data-bind="value: Beschaftigung, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Beruf:</div>
+            </td>
+            <td>
+                <input data-bind="value: Beruf, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Adresse:</div>
+            </td>
+            <td>
+                <input data-bind="value: Adresse, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+                <div>Telefon:</div>
+            </td>
+            <td>
+                <input data-bind="value: Telefon, attr: {readonly: readonly}"></input>
+            </td>
+        </tr>
+         <tr> 
+            <td>
+            </td>
+            <td>
+                  <button data-bind="click: edit">Edit</button>
+            </td>
+            <td>
+                <button data-bind="click: save">Save</button>
+            </td>
+            <td>
+                <button data-bind="click: cancel">Cancel</button>
+            </td>
+        </tr>
+
+    </table>
+
+    <script src="SiteAssets/PoF/js/knockout-3.1.0.js"></script>
+    <script src="SiteAssets/PoF/js/EditFormInit.js"></script>
+
+
+</body>
+</html>
